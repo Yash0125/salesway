@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  height: 95vh;/*set manually value at last*/
+  height: auto;/*set manually value at last*/
   padding-left: 30px;
 }
 
@@ -78,7 +78,7 @@
   display: flex;
   justify-content: start;
   align-items: center;
-  width: 12vw;
+  width: 15vw;
   background-color: white;
 }
 
