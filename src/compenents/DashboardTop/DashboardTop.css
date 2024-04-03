@@ -1,0 +1,157 @@
+.dashboardtop-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.dashboardtop-header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.dashboardtop-header-right-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dashboardtop-header-title {
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.dashboardtop-header-right-text {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.dashboardtop-header-year-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  padding: 0 10px;
+  border-radius: 30px;
+  height: 40px;
+  border: 1px solid #eaecf0;
+}
+
+.dashboardtop-header-year-icon {
+  height: 20px;
+  width: 20px;
+  color: rgb(95, 105, 128);
+  padding-left: 5px;
+}
+
+.dashboardtop-card-details-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  overflow-x: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; 
+}
+
+.dashboardtop-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #eaecf0;
+  height: 6rem;
+  width: 15rem;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  /* height: 200px;
+    width: 200px; */
+}
+
+.dashboardtop-card-title {
+  color: rgb(95, 105, 128);
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.dashboardtop-card-description-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+  height: 1.5rem;
+}
+
+.dashboardtop-card-description-left {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.dashboardtop-card-description-right {
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 5px;
+  width: 54px;
+  height: 24px;
+  border-radius: 100px;
+  padding: 2px 10px;
+  background-color: #dcfff5;
+  color: #20c997;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashboardtop-card-description-right-tp-icon {
+  color: #20c997;
+}
+
+.dashboardtop-card-refund-description-right {
+  color: #dc3545;
+  width: 52px;
+  height: 24px;
+  border-radius: 100px;
+  padding: 2px 10px;
+  background-color: #ffe0e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.dashboardtop-card-description-right-down-icon {
+  color: #dc3545;
+}
+
+@media screen and (max-width: 768px) {
+    .dashboardtop-card-details-container {
+        flex-wrap: wrap;
+        margin: auto;
+      }
+      .dashboardtop-card-container {
+        margin: auto;
+        margin-top: 1rem;
+        width: 80vw;
+      }
+      .dashboardtop-header-container {
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: start;
+        justify-content: flex-start;
+        /* justify-content: space-between;
+        margin-top: 10px;
+        align-items: center; */
+      }
+      .dashboardtop-header-right-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: start;
+      }
+}
