@@ -1,3 +1,42 @@
 .dashboard-details-container{
     width: 80vw;
+    display: flex;
+    flex-direction: row;
 }
+
+.dashboard-details-left-container{
+    width: 55vw;
+    background-color: white;
+    margin: 10px 0;
+    border-radius: 25px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-details-right-container{
+    width: 25vw;
+}
+
+@media screen and (max-width: 768px) {
+    .dashboard-details-container{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dashboard-details-left-container{
+        width: 90vw;
+        background-color: white;
+        margin: 10px 10px;
+        border-radius: 25px;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dashboard-details-right-container{
+        width: 95vw;
+    }
+  }
+  

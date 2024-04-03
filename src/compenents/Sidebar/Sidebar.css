@@ -94,3 +94,8 @@
   font-weight: 600;
   margin-left: 10px;
 }
+@media screen and (max-width: 767px) {
+  .sidebar-container {
+    display: none;
+  }
+}
