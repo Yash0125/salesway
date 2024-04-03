@@ -1,0 +1,78 @@
+.comparisonchart-header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 0 1.5vw; */
+}
+
+.comparisonchart-header-title {
+  font-size: 18px;
+  line-height: 20px;
+  color: black;
+  font-weight: 600;
+}
+
+.comparisonchart-header-right-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #eaecf0;
+  padding: 0 10px;
+  border-radius: 30px;
+  height: 40px;
+  color: rgb(95, 105, 128);
+}
+
+.comparisonchart-header-right-text {
+  color: #282828;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.comparisonchart-header-right-icon{
+    height: 20px;
+    width: 20px;
+}
+
+.data-descr-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .last-color {
+    height: 12px;
+    width: 12px;
+    background-color: #5a9cfe;
+    margin-right: 5px;
+  }
+  .this-color {
+    height: 12px;
+    width: 12px;
+    background-color: #20c997;
+    margin-right: 5px;
+  }
+  
+  .last-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .this-container {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .year-name {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: black;
+  }
+/* #282828 */
