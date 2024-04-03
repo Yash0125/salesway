@@ -3,6 +3,7 @@ import "./DashboardDetails.css";
 import DashboardTop from "../DashboardTop/DashboardTop";
 import ComparisonChart from "../ComparisonChart/ComparisonChart";
 import TopProducts from "../TopProducts/TopProducts";
+import Score from "../Score/Score";
 
 const DashboardDetails = () => {
   return (
@@ -12,7 +13,9 @@ const DashboardDetails = () => {
         <ComparisonChart/>
         <TopProducts/>
       </div>
-      <div className="dashboard-details-right-container"></div>
+      <div className="dashboard-details-right-container">
+        <Score/>
+      </div>
     </div>
   );
 };
