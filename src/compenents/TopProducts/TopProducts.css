@@ -1,0 +1,123 @@
+.top-products-container{
+
+}
+
+.table-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  th {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5f6980;
+    width: 70vw;
+    height: 54px;
+    font-weight: 600;
+  }
+  thead {
+    /* background-color: #f9fafb; */
+    width: 70vw;
+  }
+  
+  td {
+    height: 76px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  tr {
+    /* border-bottom: 1px solid #eaecf0; */
+  }
+  .table-subtitle{
+    border-bottom: 1px solid #eaecf0;
+  }
+  
+  .row-1-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 1rem;
+  }
+  
+  .row-1-container span {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #282828;
+    margin-left: 10px;
+  }
+  .app-logo {
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
+    width: 44px;
+    height: 44px;
+    border-radius: 9.43px;
+    border: 1px solid #f2f4f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row-2 {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5f6980;
+  }
+  .table {
+    border-collapse: collapse;
+  }
+  
+  .row-3-active {
+    width: 57px;
+    height: 24px;
+    border-radius: 100px;
+    padding: 2px 10px;
+    background-color: #dcfff5;
+    color: #20c997;
+  }
+  
+  .row-3-pending {
+    width: 68px;
+    height: 24px;
+    border-radius: 100px;
+    padding: 2px 10px;
+    background-color: #ffead8;
+    color: #fd7e14;
+  }
+  
+  .row-3-cancel {
+    color: #5f6980;
+    width: 79px;
+    height: 24px;
+    border-radius: 100px;
+    padding: 2px 10px;
+    background-color: #f2f4f7;
+  }
+  
+  .table-text-data {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #5f6980;
+  }
+  
+  .table-text-last-data {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #282828;
+  }
+
+  .product-img{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+  }
+  
