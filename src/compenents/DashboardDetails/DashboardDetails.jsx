@@ -5,6 +5,7 @@ import ComparisonChart from "../ComparisonChart/ComparisonChart";
 import TopProducts from "../TopProducts/TopProducts";
 import Score from "../Score/Score";
 import CustomerChart from "../CustomerChart/CustomerChart";
+import CommunityFeedback from "../CommunityFeedback/CommunityFeedback";
 
 const DashboardDetails = () => {
   return (
@@ -17,6 +18,7 @@ const DashboardDetails = () => {
       <div className="dashboard-details-right-container">
         <Score/>
         <CustomerChart/>
+        <CommunityFeedback/>
       </div>
     </div>
   );
