@@ -7,11 +7,11 @@ import Score from "../Score/Score";
 import CustomerChart from "../CustomerChart/CustomerChart";
 import CommunityFeedback from "../CommunityFeedback/CommunityFeedback";
 
-const DashboardDetails = () => {
+const DashboardDetails = ({handleMenu}) => {
   return (
     <div className="dashboard-details-container">
       <div className="dashboard-details-left-container">
-        <DashboardTop/>
+        <DashboardTop handleMenu={handleMenu} />
         <ComparisonChart/>
         <TopProducts/>
       </div>
